@@ -1,3 +1,6 @@
 from django.shortcuts import render
+from .views import user
 
-# Create your views here.
+
+class booking(ListView):
+    model = user
