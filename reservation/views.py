@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .views import user
+from .models import user
 
 
 class booking(ListView):
