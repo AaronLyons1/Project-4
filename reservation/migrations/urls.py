@@ -1,8 +1,8 @@
-# from django.urls import path
-# from .views import booking
+from django.urls import path
+from .views import booking
 
-# app_name = 'reservation'
+app_name = 'restruant'
 
-# urlpatterns = [
-#     path('user/', booking.as_view(), name='booking')
-# ]
+urlpatterns = [
+    path('bookings/', booking.as_view(), name='bookings')
+]

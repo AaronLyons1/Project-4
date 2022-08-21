@@ -15,6 +15,6 @@ class user(models.Model):
         ('7', '8')
     )
     party = models.CharField(max_length=10, choices=ppl)
-    
+
     def __str__(self):
         return f'{self.name} booked a table for {self.party} people at {self.time}'
